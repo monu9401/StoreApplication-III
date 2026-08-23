@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Insert products</title>
+</head>
+<body>
+	<h1>Add Product</h1>
+	<div>
+		<label>Id</label><br>
+        <input type="number" [(ngModel)]="product.id">
+        <br>
+        <br>
+        <label>Name</label><br>
+        <input type="text" value="" [(ngModel)]="product.name">
+        <br><br>
+        <label>Description</label><br>
+        <textarea [(ngModel)]="product.description"></textarea>
+        <br><br>
+        <label>Price</label><br>
+        <input type="number" [(ngModel)]="product.price">
+        <br><br>
+        <button (click)="addNewProduct()">Add Product</button>
+        <br><br>
+    </div>
+</body>
+</html>

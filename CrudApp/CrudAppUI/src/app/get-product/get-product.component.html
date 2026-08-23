@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Products</title>
+</head>
+<body>
+	<h2>Welcome to Product App</h2>
+	<table>
+		<thead>
+			<tr>
+				<td width="100px">Id</td>
+				<td width="200px">Name</td>
+				<td width="300px">Description</td>
+				<td width="100px">Price</td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let product of products">
+				<td width="100px">{{product.id}}</td>
+				<td width="200px">{{product.name}}</td>
+				<td width="300px">{{product.description}}</td>
+				<td width="100px">{{product.price}}</td>
+        <td width="100px"><button (click)="updateExistingProduct(product.id,product.name,product.description,product.price)">Update</button></td>
+				<td width="70px"><button (click)="deleteProduct(product.id)">Delete</button></td>
+			</tr>
+		</tbody>
+	</table>
+	<br><br><br>
+		<button id="addButton" (click)="addNewProduct()">Add new Product</button>
+</body>
+</html>
+<router-outlet></router-outlet>

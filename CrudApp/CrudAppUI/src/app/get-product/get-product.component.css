@@ -1,0 +1,45 @@
+body{
+    min-height: 100vh;
+    background-image: url('/assets/myImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -8px;
+    padding: 5px;
+}
+h2{
+    margin-left: 540px;
+    color: white;
+}
+th{
+    text-align: left;
+}
+table{
+    border: 1px solid;
+    margin-left: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(192, 47, 22);
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 5px;
+}
+button{
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: aqua;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
+#addButton{
+    background-color: rgb(129, 179, 11);
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    margin-left: 590px;
+    cursor: pointer;
+}
+#addButton:hover{
+    background-color: rgb(21, 116, 21);
+}

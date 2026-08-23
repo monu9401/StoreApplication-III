@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: rgb(67 69 82);
+    height: 100vh;
+    width: 100vw;
+    margin: -8px;
+    padding: 0;
+    overflow:scroll;
+}
+h1{
+    color: rgba(211, 168, 212, 0.822);
+    text-align: left;
+    margin-left: 260px;
+}
+div{
+    font-size: 1.3em;
+    color:rgb(224, 99, 9);
+    border: 1px solid black;
+    width:500px;
+    background-color: rgb(180, 231, 238);
+    margin-left: 100px;
+}
+label{
+    font-weight: bold;
+}
+button{
+    background-color: rgb(7, 190, 7);
+    height: 35px;
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(0, 100, 30);
+}
+textarea{
+    height: 100px;
+    width: 350px;
+    background-color: rgb(142, 240, 158);
+}
+input{
+    background-color: rgb(142, 240, 158);
+}
